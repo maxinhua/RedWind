@@ -1,0 +1,124 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+dl {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "微软雅黑";
+	-webkit-tap-highlight-color: transparent;
+	-o-tap-highlight-color: transparent;
+	-ms-tap-highlight-color: transparent;
+	font-size: 12px;
+	background: #FFFFFF;
+}
+
+img,
+input {
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+i,
+em,
+b {
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	height: 0;
+	content: " ";
+}
+
+.p-r {
+	position: relative;
+}
+.p-a {
+	position: absolute;
+}
+.none {
+	display: none!important;
+}
+
+.over {
+	overflow: hidden;
+}
+/* font-size */
+.f12{
+	font-size: 12px;
+}
+.f23{
+	font-size: 23px;
+}
+.f30{
+	font-size: 30px;
+}
+.f33{
+	font-size: 33px;
+}
+/* color */
+.c86{
+	color: #86163c;
+}
+.wraper{
+	width: 1000px;
+	margin: 0 auto;
+}
